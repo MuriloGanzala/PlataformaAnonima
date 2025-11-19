@@ -5,7 +5,7 @@ db = SQLAlchemy()
 
 class Denuncia(db.Model):
     __tablename__ = 'denuncias'
-    
+     
     id = db.Column(db.Integer, primary_key=True)
     protocolo = db.Column(db.String(50), unique=True, nullable=False)
     categoria = db.Column(db.String(100), nullable=False)

@@ -11,7 +11,7 @@ from src.routes.sugestao import sugestao_bp
 from src.routes.auth import auth_bp
 from werkzeug.security import generate_password_hash
 
-
+"""""""
 
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
 app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
